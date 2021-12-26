@@ -1,6 +1,11 @@
 # rabbitmq-with-stomp
 Dockerfile to create RabbitMQ server with stomp support enabled.
 
+# Clone the repository
+```
+git clone git@github.com:nextzakir/rabbitmq-with-stomp.git && cd ./rabbitmq-with-stomp
+```
+
 # Build the image
 ```
 docker build -t nextzakir/rabbitmq:latest .
